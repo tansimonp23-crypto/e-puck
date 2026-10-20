@@ -1,0 +1,70 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/WoodenBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+  info [
+    "The model of the E-puck robot"
+  ]
+  title "E-puck simulation"
+}
+Viewpoint {
+  orientation -0.2324493692067285 -0.14943881545798998 0.9610594836896971 3.9676615263416637
+  position -0.6863420077530534 -0.7243666048980503 0.2688847485767289
+  follow "e-puck"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+WoodenBox {
+  translation -0.683174 0.2 0.05
+  rotation 0 0 1 0.5
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.35 0.75 0.05
+  rotation 0 0 1 4.96782
+  name "wooden box(1)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.35471 -0.5 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(2)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation 0.36 0.3 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(3)"
+  size 0.1 0.1 0.1
+}
+WoodenBox {
+  translation -0.66 0.65 0.05
+  rotation 0 0 1 5.36782
+  name "wooden box(4)"
+  size 0.1 0.1 0.1
+}
+E-puck {
+  hidden position_0_0 7518.698147729968
+  hidden position_0_1 7602.393233273019
+  hidden linearVelocity_0 1.2698484046687794e-11 -1.4975303959848436e-11 -2.994890261713105e-12
+  hidden angularVelocity_0 -5.6183273199052364e-11 4.015016570074063e-10 1.2309347442864388e-07
+  hidden rotation_1 0 0.9999999999999999 0 4.00852034318236
+  hidden linearVelocity_1 3.00158837799247e-09 1.135713590039332e-09 -5.171774154930669e-12
+  hidden angularVelocity_1 0.4881198226820083 -1.2714688237123832 0.001099317974729579
+  hidden rotation_2 0 -1 0 0.2609884142804605
+  hidden linearVelocity_2 -2.975342512189246e-09 -1.159610214949068e-09 -5.668356392804382e-13
+  hidden angularVelocity_2 0.48717703176329635 -1.2690126854755088 0.0010971797629486374
+  translation -0.9632374272674479 -0.9631899726378769 -3.300863531160991e-05
+  rotation -0.002468698555767452 -0.000874985495056774 -0.9999965699580294 2.775043384901702
+  controller "HelloWorld"
+}
