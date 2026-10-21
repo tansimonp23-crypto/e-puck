@@ -1,0 +1,11 @@
+# Webots controller build output
+controllers/*/build/
+controllers/*/*
+!controllers/*/*.cpp
+!controllers/*/*.hpp
+!controllers/*/*.c
+!controllers/*/*.h
+!controllers/*/Makefile
+
+# macOS
+.DS_Store
